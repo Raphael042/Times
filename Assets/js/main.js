@@ -20,13 +20,16 @@ function createCard(date, day, games) {
 document.getElementById("app").innerHTML = `
 <main id="cards">
 ${createCard("11/12", "Quarta-Feira", 
-createGame("atletico", "19:00", "bota"))}+
+createGame("atletico", "19:00", "bota"))}
 ${createCard("15/12", "Domingo", 
 createGame("corinthians", "16:00", "palmeiras"))}
-${createCard("11/12", "Quarta-Feira", 
-createGame("atletico", "19:00", "bota"))}+
-${createCard("11/12", "Quarta-Feira", 
-createGame("atletico", "19:00", "bota"))}+
+${createCard("17/12", "Terça-Feira", 
+createGame("Flamengo", "17:00", "Vasco"))}
+${createCard("17/12", "Terça-Feira", 
+createGame("santos", "19:00", "cruzeiro"))}
+${createCard("18/12", "Quarta-Feira", 
+createGame("inter", "11:00", "gremio"))}
+${createCard("19/12", "Quinta-Feira", 
+createGame("sp", "16:00", "bahia"))}
 </main>
-
 `;
